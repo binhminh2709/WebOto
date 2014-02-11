@@ -1,0 +1,100 @@
+<!--cac loai font-->
+@font-face {
+    font-family: "MyFairCodyRegular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/myfaircody-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/myfaircody-webfont.woff") format("woff"), url("fonts/myfaircody-webfont.ttf") format("truetype"), url("fonts/myfaircody-webfont.svg#MyFairCodyRegular") format("svg");
+}
+h1, h2, h3.moduletitle, h4, #menusys_mega li a {
+    font-family: 'MyFairCodyRegular';
+    font-style: normal;
+    font-weight: normal;
+}
+h2.componentheading, .componentheading, h1.componentheading, .componentheading {
+    font-family: 'MyFairCodyRegular';
+    font-style: normal;
+    font-weight: normal;
+}
+#option_wrapper {
+    font-family: 'MyFairCodyRegular';
+    font-style: normal;
+    font-weight: normal;
+}
+<!--ket thuc font-->
+html, body, form, fieldset {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: none repeat scroll 0 0 #303236;
+    color: #FAFAFA;
+    font-family: Arial;
+    line-height: 20px;
+}
+#bd {
+    background-color: #303236;
+    color: #FAFAFA;
+}
+#bd a {
+    color: #F9E72C;
+}
+body.fs3 {
+    font-size: 12px;
+}
+.pattern6 {
+    background-image:url(image/pattern6.png);
+}
+#zt-wrapper {
+    background:url(image/zt-iner-bg-main-left.png) repeat-y scroll left 0 transparent;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+#zt-wrapper-inner {
+    background: url(image/zt-iner-bg-main-right.png) repeat-y scroll right 0 transparent;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+}
+.clearfix {
+    clear: both;
+}
+#zt-header-bg {
+    background: none repeat scroll 0 50% transparent;
+}
+.slide-bg {
+    background: none repeat scroll 0 50% transparent;
+}
+#zt-header {
+    height: auto;
+    padding: 70px 0 0;
+    width: 100%;
+}
+.zt-wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+#zt-logo-inner {
+    position: relative;
+}
+#zt-logo {
+    background:url(image/zt-iner-logo.png) no-repeat scroll left top transparent;
+    height: 161px;
+    left: 365px;
+    margin: auto;
+    position: absolute;
+    top: -60px;
+    width: 188px;
+    z-index: 9999;
+}
+#zt-logo a {
+    display: block;
+    height: 161px;
+    width: 188px;
+}
+#zt-logo span {
+    display: none;
+}
+#zt-logo-inner {
+    position: relative;
+}
